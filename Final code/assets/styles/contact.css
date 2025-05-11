@@ -1,0 +1,98 @@
+#contact {
+  padding: 72px 24px;
+  background-color: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.container h1 {
+  text-align: center;
+  color: #6b4f4f;
+  margin-bottom: 24px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+label {
+  font-weight: 600;
+  color: #4a3c3c;
+}
+
+input[type="text"],
+input[type="date"],
+select {
+  padding: 10px 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+textarea {
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+}
+
+.form-group {
+  display: flex;
+  gap: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  border: 1px solid #e1e0e0;
+  border-radius: 6px;
+  padding: 8px 14px;
+}
+
+.radio-group label {
+  font-weight: normal;
+}
+
+.primary-button {
+  background-color: #8b5e3c;  
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+  background-color: #6a4429;
+}
+
+@media only scree and (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .radio-group {
+    flex-direction: column;
+  }
+}
